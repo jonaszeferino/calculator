@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="layout.css" type="text/css" />
+ <title>Calculator</title>
+ 
+</head>
+<body>
+ <div class="background">
+<h1></h1>
+<div class="calculator">
+<h1 style="text-align: center; font-family: 'DigitalFont';">Calculator</h1>
+<p id="result" class="result"></p>
+<div>
+ <button class="bt" onclick="clean()" Style="width: 80px;">C</button>
+ <button class="bt" onclick="eraser()" Style="width: 142px;"><</button><br>
+ <button class="bt" onclick="insertData('7')">7</button>
+ <button class="bt" onclick="insertData('8')">8</button>
+ <button class="bt" onclick="insertData('9')">9</button>
+ <button class="bt" onclick="insertData('/')">÷</button>
+</br>
+ <button class="bt"onclick="insertData('4')">4</button>
+ <button class="bt"onclick="insertData('5')">5</button>
+ <button class="bt"onclick="insertData('6')">6</button>
+ <button class="bt"onclick="insertData('*')">x</button>
+</br>
+ <button class="bt"onclick="insertData('1')">1</button>
+ <button class="bt"onclick="insertData('2')">2</button>
+ <button class="bt"onclick="insertData('3')">3</button>
+ <button class="bt"onclick="insertData('-')">-</button>
+</br>
+ <button class="bt"onclick="insertData('0')">0</button>
+ <button class="bt"onclick="insertData('.')">.</button>
+ <button class="bt"onclick="insertData('+')">+</button>
+ <button class="bt"onclick="calculate()">=</button>
+</div> 
+
+</div>
+</body>
+<script src="calculator.js"></script>
+</html>
+
+
+
+
+
+

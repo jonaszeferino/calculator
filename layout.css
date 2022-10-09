@@ -1,0 +1,77 @@
+
+@font-face {
+ font-family: 'DigitalFont';
+ src: url(DS-DIGIB.TTF);
+ font-weight: normal;
+ font-style: normal;
+ /*
+ formats
+ -- opentype (otf)
+ -- truetype (ttf)
+ -- embedded-opentype
+ -- truetype-aat (Apple advanced Typography)
+ -- svg
+*/
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+.background{
+ background-image: linear-gradient(20deg,rgb(70, 66, 66), rgb(130, 132, 205));
+ height: 100vh; /*vh view heigth*/
+ color: #fff;
+  
+}
+.calculator{
+ position: absolute;
+ background-color: rgba(0, 0, 0, 0.8);
+ top: 5%;
+ left: 2.5%;
+ border-radius: 15px;
+ padding: 15px;
+ font-size: large;
+ }
+.bt {
+ width: 50px;
+ height: 50px;
+ font-size: 25px;
+ cursor: pointer;
+ margin: 3px;
+	box-shadow: 3px 4px 0px 0px #020a12;
+	/*background:linear-gradient(to bottom, #3c546b 5%, #213447 100%);*/
+	background-color:#3c546b;
+	border-radius:5px;
+	border:1px solid #0b121a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #030f1a;
+}
+.bt:hover {
+	background:linear-gradient(to bottom, #213447 5%, #3c546b 100%);
+	background-color:#213447;
+}
+.bt:active {
+	position:relative;
+	top:1px;
+}
+.result{
+ font-family: 'DigitalFont';
+ background-color: white;
+ width: 220px;
+ height: 30px;
+ margin: 5px;
+ font-size: 25px;
+ color: black;
+ text-align: right;
+ padding: 5px;
+ border-radius: 5px;
+  
+}
+
