@@ -23,7 +23,7 @@ This project is freely licensed.
 
 ## Credits
 - Project maintained by Jonas Zeferino.
-- Special thanks to contributors.
+
 
 ## Contact
 For questions, suggestions, or support, you can contact Jonas Zeferino at jonaszeferino@gmail.com.
